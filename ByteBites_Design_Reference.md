@@ -9,6 +9,8 @@ Do not add authentication logic, a database layer, or any features not described
 in the spec.
 
 ## Behavioral Instructions
-<!-- Write a short set of instructions guiding how your AI assistant should behave 
-when helping with this project — for example, which classes to stay within, 
-what complexity to avoid, or any preferences for how suggestions are structured. -->
+- Use only these four classes: Customer, MenuItem, Menu, Transaction. Do not add others.
+- Give each class only the attributes named in the spec. Do not invent IDs, emails, or quantities.
+- Do not add methods the spec doesn't ask for. Only filtering by category and computing the total are required.
+- No authentication or verification logic. Purchase history is just stored data.
+- Keep it simple. Put anything you assumed in a short list at the end.
